@@ -13,11 +13,12 @@
      需要在自己的模块的对外接口中调用addRoute方法，需要 路径名 和 相关widget实例 两个参数
      
   3. 要跳转到其他模块的界面，只需要调用jumpToPage传入注册的 路径名 和需要的参数
+  4. 存储问题，可以直接调用servicemananger().writeValue(key,value) 来存，key为String, value为String,map，json类型
  ### 网络请求
   #### 网络请求有两种方式
   ##### 方式一、直接调用ServiceManager().provider.getData<T>方法，
-       1.需要传入返回成功，失败方法，传入的参数可以是String,map如果要传入实体类需要继承自BaseModel
-       2.目前不知道错误类型，目前把返回的信息传入到各个模块中进行处理，同时留了口，到时候可以按情况来封装
+       1. 需要传入返回成功，失败方法，传入的参数可以是String,map如果要传入实体类需要继承自BaseModel
+       2. 目前不知道错误类型，目前把返回的信息传入到各个模块中进行处理，同时留了口，到时候可以按情况来封装
   ####  方式二、自己模块自定义，继承自BaseProvider，来处理自己的baseurl,处理header,处理请求等自定义。
 
 # 三、 egg_launch模块 是启动模块，目前是按照上述方式做了启动页，测试上传手机信息
