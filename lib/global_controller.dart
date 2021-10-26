@@ -1,13 +1,13 @@
 import 'package:get/get.dart';
 import 'package:launch/service/launch_service.dart';
-import 'package:service_manager/api/launch/launch.dart';
-import 'package:service_manager/core/service_manager.dart';
+import 'package:egg_manager/service_manager.dart';
 
 class RootController extends GetxController{
   List<GetPage> pages;
   @override
   void onInit() {
     super.onInit();
+    ServiceManager().init();
     _registerModule();
   }
 
