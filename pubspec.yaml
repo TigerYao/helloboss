@@ -30,10 +30,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   egg_manager:
     git:
-      url: "git@github.com:TigerYao/egg_manager.git"
+      url: "https://github.com/TigerYao/egg_manager.git"
   launch:
     git:
-      url: "git@github.com:TigerYao/egg_launch.git"
+      url: "https://github.com/TigerYao/egg_launch.git"
 
 dev_dependencies:
   flutter_test:
