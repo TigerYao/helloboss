@@ -1,3 +1,4 @@
+import 'package:egg_manager/api/analysis/analysis.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:helloboss/global_controller.dart';
@@ -13,6 +14,9 @@ void init(){
         theme: ThemeData(primaryColor: Colors.white),
         initialRoute: AppPages.INITIAL,
         getPages: AppPages.pages,
+        navigatorObservers: [
+          byService<IAnalysisService>().firebaseAnalyticsObserver()
+        ],
       )
   );
 }
