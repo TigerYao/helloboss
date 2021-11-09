@@ -3,7 +3,6 @@ import 'package:launch/service/launch_service.dart';
 import 'package:egg_manager/service_manager.dart';
 
 class RootController extends GetxController{
-  List<GetPage> pages;
   @override
   void onInit() {
     super.onInit();
