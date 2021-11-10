@@ -29,9 +29,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   egg_manager:
-    git: "https://github.com/TigerYao/egg_manager.git"
+    git:
+      url: "https://github.com/TigerYao/egg_manager.git"
+      ref: 0.0.0.2
   launch:
-    git: "https://github.com/TigerYao/egg_launch.git"
+    git:
+      url: "https://github.com/TigerYao/egg_launch.git"
+      ref: 0.0.0.1
 
 dev_dependencies:
   flutter_test:
