@@ -103,8 +103,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "0.0.0.2"
-      resolved-ref: b60606cd7cb0c032894caaeb50d9fe91ad1dd29b
+      ref: "0.0.0.3"
+      resolved-ref: "34812cc3c5ffb3f2789106d4c17df8c5b8f9454c"
       url: "https://github.com/TigerYao/egg_manager.git"
     source: git
     version: "0.0.1"
@@ -246,8 +246,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "0.0.0.1"
-      resolved-ref: a7a23fb917039d61c282a0880743e6294e98927b
+      ref: "0.0.0.3"
+      resolved-ref: "54b6dec6feacea06c747438b89daca268dce2ba1"
       url: "https://github.com/TigerYao/egg_launch.git"
     source: git
     version: "0.0.1"

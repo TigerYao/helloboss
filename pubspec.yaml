@@ -31,11 +31,11 @@ dependencies:
   egg_manager:
     git:
       url: "https://github.com/TigerYao/egg_manager.git"
-      ref: 0.0.0.2
+      ref: 0.0.0.3
   launch:
     git:
       url: "https://github.com/TigerYao/egg_launch.git"
-      ref: 0.0.0.1
+      ref: 0.0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -82,3 +82,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+#dependency_overrides:
+#  launch:
+#    path: ../egg_launch
+#  egg_manager:
+#    path: ../egg_manager
