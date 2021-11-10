@@ -1,4 +1,6 @@
+import 'package:egg_manager/api/analysis/analysis.dart';
 import 'package:get/get.dart';
+import 'package:helloboss/service/analytic.dart';
 import 'package:launch/service/launch_service.dart';
 import 'package:egg_manager/service_manager.dart';
 
@@ -22,5 +24,6 @@ class RootController extends GetxController{
   //注册模块
   void _registerModule(){
     ServiceManager().addService<ILaunch>(ILaunchImpl());
+    ServiceManager().addService<IAnalysisService>(AnalyticService());
   }
 }
