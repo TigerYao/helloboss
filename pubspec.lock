@@ -103,8 +103,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "0.0.0.3"
-      resolved-ref: "34812cc3c5ffb3f2789106d4c17df8c5b8f9454c"
+      ref: "0.0.0.4"
+      resolved-ref: "5723772b8d8fcec63a544b0537876f5d39364216"
       url: "https://github.com/TigerYao/egg_manager.git"
     source: git
     version: "0.0.1"
@@ -115,6 +115,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.2.0"
+  ffi:
+    dependency: transitive
+    description:
+      name: ffi
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.1.2"
+  file:
+    dependency: transitive
+    description:
+      name: file
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "6.1.2"
   firebase:
     dependency: transitive
     description:
@@ -206,14 +220,14 @@ packages:
       name: get
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "3.26.0"
+    version: "4.3.8"
   get_storage:
     dependency: transitive
     description:
       name: get_storage
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.1.6"
+    version: "2.0.3"
   hive:
     dependency: transitive
     description:
@@ -246,8 +260,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "0.0.0.3"
-      resolved-ref: "54b6dec6feacea06c747438b89daca268dce2ba1"
+      ref: "0.0.0.4"
+      resolved-ref: "27bb08716727af836b5afac491f5ad8c79d3b336"
       url: "https://github.com/TigerYao/egg_launch.git"
     source: git
     version: "0.0.1"
@@ -285,7 +299,35 @@ packages:
       name: path_provider
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.6.1"
+    version: "2.0.4"
+  path_provider_linux:
+    dependency: transitive
+    description:
+      name: path_provider_linux
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.1.2"
+  path_provider_macos:
+    dependency: transitive
+    description:
+      name: path_provider_macos
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.3"
+  path_provider_platform_interface:
+    dependency: transitive
+    description:
+      name: path_provider_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.1"
+  path_provider_windows:
+    dependency: transitive
+    description:
+      name: path_provider_windows
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.4"
   pedantic:
     dependency: transitive
     description:
@@ -299,7 +341,7 @@ packages:
       name: platform
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.2.1"
+    version: "3.0.2"
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -307,6 +349,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.2"
+  process:
+    dependency: transitive
+    description:
+      name: process
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.2.3"
   protobuf:
     dependency: transitive
     description:
@@ -382,6 +431,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.0"
+  win32:
+    dependency: transitive
+    description:
+      name: win32
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.5"
+  xdg_directories:
+    dependency: transitive
+    description:
+      name: xdg_directories
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
   flutter: ">=2.0.0"

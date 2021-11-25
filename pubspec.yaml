@@ -31,11 +31,11 @@ dependencies:
   egg_manager:
     git:
       url: "https://github.com/TigerYao/egg_manager.git"
-      ref: 0.0.0.3
+      ref: 0.0.0.4
   launch:
     git:
       url: "https://github.com/TigerYao/egg_launch.git"
-      ref: 0.0.0.3
+      ref: 0.0.0.4
 
 dev_dependencies:
   flutter_test:
