@@ -4,7 +4,7 @@ import 'package:helloboss/global_controller.dart';
 import 'package:egg_manager/service_manager.dart';
 
 void init(){
-  RootController controller = Get.put(RootController());
+  Get.put(RootController());
   runApp(
       GetMaterialApp(
         navigatorKey: Get.key,

@@ -82,8 +82,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-#dependency_overrides:
-#  launch:
-#    path: ../egg_launch
-#  egg_manager:
-#    path: ../egg_manager
+dependency_overrides:
+  launch:
+    path: ../egg_launch
+  egg_manager:
+    path: ../egg_manager
